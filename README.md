@@ -229,7 +229,7 @@ beat-track/
 
 | Service | Status | URL |
 | :--- | :---: | :--- |
-| **Frontend** — Vercel | 🟢 Live | [beat-track.vercel.app](#) |
+| **Frontend** — Vercel | 🟢 Live | [https://beat-track-ai.vercel.app/](#) |
 | **Backend API** — Render | 🟢 Live | [beat-track-api.onrender.com/predict](#) |
 
 > ⚠️ **Note:** The backend is hosted on Render's free tier. The first request after a period of inactivity may take **15–30 seconds** to cold-start the container. Subsequent requests will be fast.
