@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useRef, useEffect } from "react";
 import { motion } from "framer-motion";
 import { Card, CardContent } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
@@ -26,9 +26,18 @@ export default function PredictionForm() {
   });
 
   const [result, setResult] = useState(null);
+  const resultRef = useRef(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
 
+  useEffect(() => {
+    if (result && resultRef.current) {
+      resultRef.current.scrollIntoView({
+        behavior: "smooth",
+        block: "start",
+      });
+    }
+  }, [result]);
   const handleChange = (field, value) => {
     setForm({ ...form, [field]: value });
     if (error) setError("");
@@ -241,7 +250,8 @@ export default function PredictionForm() {
             </Button>
 
             {result && (
-              <div className="pt-4">
+              <div ref={resultRef} className="pt-4 scroll-mt-10">
+                {/* Added ref={resultRef} and scroll-mt-10 for a little extra breathing room */}
                 <ResultCard result={result} />
               </div>
             )}
