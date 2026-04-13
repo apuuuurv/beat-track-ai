@@ -15,7 +15,7 @@
 [![Docker](https://img.shields.io/badge/Docker-Ready-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://www.docker.com/)
 [![Deployed on Vercel](https://img.shields.io/badge/Deployed_on-Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://vercel.com/)
 
-[🌐 Live Demo](#) &nbsp;·&nbsp; [📂 Explore the Code](#) &nbsp;·&nbsp; [🐛 Report a Bug](#) &nbsp;·&nbsp; [✨ Request a Feature](#)
+[🌐 Live Demo](https://beat-track-ai.vercel.app) &nbsp;·&nbsp; [📂 Explore the Code](#) &nbsp;·&nbsp; [🐛 Report a Bug](#) &nbsp;·&nbsp; [✨ Request a Feature](#)
 
 </div>
 
