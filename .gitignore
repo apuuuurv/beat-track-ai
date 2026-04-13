@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+backend/venv/
+backend/__pycache__/
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Build outputs
+frontend/dist/
+*.pyc
+
+# IDE / System
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+.gemini/
+
+# Docker Local
+*.log
+docker-compose.override.yml
